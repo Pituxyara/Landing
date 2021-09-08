@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+   
+    font-family: "Roboto", sans-serif;
+    color: #666666;
+}
+
+*,
+*:after,
+*:before {
+    box-sizing: border-box;
+}
+
+
+
+/*         Header
+===========================*/ 
+
+.header_container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.logo {
+    margin-top: 30px;
+    margin-left: 215px;
+    font-size: 40px;
+}
+
+.phone_number {
+    margin-top: 36px;
+    margin-left: 1130px;
+}
+
+.phone_number::before {
+    background: url(images/Phonenumber.png) left;
+
+}
